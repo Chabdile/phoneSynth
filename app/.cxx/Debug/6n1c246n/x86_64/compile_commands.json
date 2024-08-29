@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6n1c246n/x86_64",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android33 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/175556e54fd77ebeeef845220b07f679/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/native-lib.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/native-lib.cpp"
+}
+]

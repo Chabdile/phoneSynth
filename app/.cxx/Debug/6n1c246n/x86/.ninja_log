@@ -1,0 +1,15 @@
+# ninja log v5
+471	549	1724638398074601479	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6n1c246n/obj/x86/libnative-lib.so	dfdfceb9975234fa
+1	470	1724638397995848362	CMakeFiles/native-lib.dir/native-lib.cpp.o	e5d9eeaf0c128148
+0	8	0	clean	de98d0b64db9a773
+0	51	1724638663951679873	build.ninja	5bf9036ecdc51cb2
+0	264	1724638664384890577	CMakeFiles/native-lib.dir/native-lib.cpp.o	e5d9eeaf0c128148
+265	316	1724638664436934235	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6n1c246n/obj/x86/libnative-lib.so	dfdfceb9975234fa
+0	8	0	clean	de98d0b64db9a773
+0	8	0	clean	de98d0b64db9a773
+1	399	1724639413286022033	CMakeFiles/native-lib.dir/native-lib.cpp.o	e5d9eeaf0c128148
+400	507	1724639413364563483	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6n1c246n/obj/x86/libnative-lib.so	dfdfceb9975234fa
+0	8	0	clean	de98d0b64db9a773
+0	9	0	clean	de98d0b64db9a773
+1	361	1724640024221995488	CMakeFiles/native-lib.dir/native-lib.cpp.o	e5d9eeaf0c128148
+361	414	1724640024275779577	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6n1c246n/obj/x86/libnative-lib.so	dfdfceb9975234fa

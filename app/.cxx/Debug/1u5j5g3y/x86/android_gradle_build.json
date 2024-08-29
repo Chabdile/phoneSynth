@@ -1,0 +1,40 @@
+{
+  "buildFiles": [
+    "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/x21008xx/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/1u5j5g3y/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/x21008xx/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/1u5j5g3y/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "output": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/x86/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/x21008xx/.gradle/caches/transforms-4/0bab344ebe757f849118e3ead79c4486/transformed/oboe-1.9.0/prefab/modules/oboe/libs/android.x86/liboboe.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
