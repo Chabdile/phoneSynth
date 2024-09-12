@@ -48,7 +48,7 @@ extern "C" {
     }
 
     JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_setFrequency(JNIEnv *env, jobject obj, jdouble frequency) {
+    Java_com_example_phonesynth_MainActivity_setFrequency(JNIEnv *env, jobject obj, jfloat frequency) {
         osc.setFrequency(frequency);
     }
 
@@ -57,13 +57,15 @@ extern "C" {
         osc.setAmplitude(amplitude);
     }
 
-    JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_setWaveform(JNIEnv *env, jobject obj, Oscillator::Waveform waveform) {
-        osc.setWaveform(waveform);
-    }
+//    JNIEXPORT void JNICALL
+//    Java_com_example_phonesynth_MainActivity_setWaveform(JNIEnv *env, jobject obj, jobject ordinal) {
+//        // Oscillator::Waveformに対応するenumに変換
+//        auto waveform = static_cast<Oscillator::Waveform>(ordinal);
+//        osc.setWaveform(waveform);
+//    }
 
     JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_setSampleRate(JNIEnv *env, jobject obj, jdouble sampleRate) {
+    Java_com_example_phonesynth_MainActivity_setSampleRate(JNIEnv *env, jobject obj, jfloat sampleRate) {
         osc.setSampleRate(sampleRate);
     }
 

@@ -13,9 +13,9 @@ public:
         Square
     };
 
-    void setFrequency(double frequency) {
+    void setFrequency(float frequency) {
         mFrequency = frequency;
-        mPhaseIncrement = kTwoPi * mFrequency / mSampleRate;
+        mPhaseIncrement = (float)(kTwoPi * mFrequency / mSampleRate);
     }
 
     void setAmplitude(float amplitude) {
@@ -26,7 +26,7 @@ public:
         mWaveform = waveform;
     }
 
-    void setSampleRate(double sampleRate) {
+    void setSampleRate(float sampleRate) {
         mSampleRate = sampleRate;
         setFrequency(mFrequency);
     }
@@ -53,17 +53,17 @@ public:
         }
 
         mPhase += mPhaseIncrement;
-        if (mPhase >= kTwoPi) mPhase -= kTwoPi;
+        if (mPhase >= kTwoPi) mPhase -= (float)kTwoPi;
         return sample;
     }
 
 private:
-    double mSampleRate = 48000.0;
-    double mFrequency = 440.0;
-    double mPhase = 0.0;
-    double mPhaseIncrement = 0.0;
+    float mSampleRate = 48000.0;
+    float mFrequency = 440.0;
+    float mPhase = 0.0;
+    float mPhaseIncrement = 0.0;
     float mAmplitude = 0.5f;
     float mPulseWidth = 0.5; // パルス波のデフォルト幅
-    Waveform mWaveform = Sine;
+    Waveform mWaveform = Triangle;
     const double kTwoPi = 2.0 * M_PI;
 };
