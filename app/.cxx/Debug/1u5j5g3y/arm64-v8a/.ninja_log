@@ -1,9 +1,0 @@
-# ninja log v5
-1	271	1724883877816059701	CMakeFiles/native-lib.dir/Oscillator.cpp.o	9aaa04ab81d13e07
-0	299	1724883877843376834	CMakeFiles/native-lib.dir/native-lib.cpp.o	6a62d0ad3dde4435
-299	351	1724883877895808201	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so	fa130bbaea4e7c2
-0	9	0	clean	de98d0b64db9a773
-14	550	1724896105443974711	CMakeFiles/native-lib.dir/Oscillator.cpp.o	9aaa04ab81d13e07
-13	595	1724896105489672085	CMakeFiles/native-lib.dir/native-lib.cpp.o	6a62d0ad3dde4435
-595	789	1724896105685026950	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so	fa130bbaea4e7c2
-0	8	0	clean	de98d0b64db9a773
