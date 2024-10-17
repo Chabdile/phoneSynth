@@ -245,15 +245,6 @@ CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/x21008xx/Library/Android/sdk/ndk/25.2.
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/1u5j5g3y/armeabi-v7a
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp
-
 //The directory containing a CMake configuration file for oboe.
 oboe_DIR:PATH=/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/1u5j5g3y/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/oboe
 

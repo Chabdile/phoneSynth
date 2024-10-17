@@ -23,7 +23,7 @@
       "artifactName": "native-lib",
       "output": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so",
       "runtimeFiles": [
-        "/Users/x21008xx/.gradle/caches/transforms-4/0bab344ebe757f849118e3ead79c4486/transformed/oboe-1.9.0/prefab/modules/oboe/libs/android.arm64-v8a/liboboe.so"
+        "/Users/x21008xx/.gradle/caches/transforms-4/99da304e28aa3e4c45a00b6e3c18fc9a/transformed/oboe-1.9.0/prefab/modules/oboe/libs/android.arm64-v8a/liboboe.so"
       ]
     }
   },

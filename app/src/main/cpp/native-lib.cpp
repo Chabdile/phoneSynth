@@ -1,6 +1,4 @@
 #include <jni.h>
-//#include <oboe/Oboe.h>
-//#include <cmath>
 #include "Oscillator.cpp"
 
 Oscillator osc;
@@ -57,19 +55,18 @@ extern "C" {
         osc.setAmplitude(amplitude);
     }
 
-//    JNIEXPORT void JNICALL
-//    Java_com_example_phonesynth_MainActivity_setWaveform(JNIEnv *env, jobject obj, jobject ordinal) {
-//        // Oscillator::Waveformに対応するenumに変換
-//        auto waveform = static_cast<Oscillator::Waveform>(ordinal);
-//        osc.setWaveform(waveform);
-//    }
+    JNIIMPORT void JNICALL
+    Java_com_example_phonesynth_MainActivity_setWaveform(JNIEnv *env, jobject obj, jint type) {
+        // Oscillatorに対応するchar_16tに
+        osc.setWaveform(type);
+    }
 
     JNIEXPORT void JNICALL
     Java_com_example_phonesynth_MainActivity_setSampleRate(JNIEnv *env, jobject obj, jfloat sampleRate) {
         osc.setSampleRate(sampleRate);
     }
 
-    JNIEXPORT void JNICALL
+    JNIIMPORT void JNICALL
     Java_com_example_phonesynth_MainActivity_setPulseWidth(JNIEnv *env, jobject obj, jfloat pulseWidth) {
         osc.setPulseWidth(pulseWidth);
     }
