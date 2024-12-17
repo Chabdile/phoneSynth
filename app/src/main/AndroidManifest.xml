@@ -31,7 +31,8 @@
             android:name="com.example.phonesynth.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.PhoneSynth" >
+            android:theme="@style/Theme.PhoneSynth"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

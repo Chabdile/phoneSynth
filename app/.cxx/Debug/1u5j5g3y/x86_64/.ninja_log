@@ -8,3 +8,8 @@
 827	1050	1728523499839315188	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/x86_64/libnative-lib.so	6c59cf03d9693e07
 0	8	0	clean	de98d0b64db9a773
 1	8	0	clean	de98d0b64db9a773
+0	7	0	clean	de98d0b64db9a773
+0	7	0	clean	de98d0b64db9a773
+2	394	1729039048767391347	CMakeFiles/native-lib.dir/Oscillator.cpp.o	55075fb87280854
+1	410	1729039048783288310	CMakeFiles/native-lib.dir/native-lib.cpp.o	cb1fa3c6a7b7c7f
+410	472	1729039048844310262	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/x86_64/libnative-lib.so	6c59cf03d9693e07

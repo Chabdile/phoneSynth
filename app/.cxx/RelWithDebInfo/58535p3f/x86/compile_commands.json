@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/RelWithDebInfo/58535p3f/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/99da304e28aa3e4c45a00b6e3c18fc9a/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/native-lib.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/native-lib.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/RelWithDebInfo/58535p3f/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/99da304e28aa3e4c45a00b6e3c18fc9a/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -o CMakeFiles/native-lib.dir/Oscillator.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/Oscillator.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/Oscillator.cpp"
+}
+]

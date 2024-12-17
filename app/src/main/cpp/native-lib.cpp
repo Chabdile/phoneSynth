@@ -1,6 +1,4 @@
 #include <jni.h>
-//#include <oboe/Oboe.h>
-//#include <cmath>
 #include "Oscillator.cpp"
 
 Oscillator osc;
@@ -23,7 +21,7 @@ AudioCallback audioCallback;
 
 extern "C" {
     JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_startStream(JNIEnv *env, jobject obj) {
+    Java_com_example_phonesynth_component_AudioEngine_startStream(JNIEnv *env, jobject obj) {
         oboe::AudioStreamBuilder builder;
         builder.setCallback(&audioCallback)
         ->setPerformanceMode(oboe::PerformanceMode::LowLatency)
@@ -39,7 +37,7 @@ extern "C" {
     }
 
     JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_stopStream(JNIEnv *env, jobject obj) {
+    Java_com_example_phonesynth_component_AudioEngine_stopStream(JNIEnv *env, jobject obj) {
         if (stream != nullptr) {
             stream->stop();
             stream->close();
@@ -48,35 +46,45 @@ extern "C" {
     }
 
     JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_setFrequency(JNIEnv *env, jobject obj, jfloat frequency) {
+    Java_com_example_phonesynth_component_AudioEngine_setFrequency(JNIEnv *env, jobject obj, jfloat frequency) {
         osc.setFrequency(frequency);
     }
 
     JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_setAmplitude(JNIEnv *env, jobject obj, jfloat amplitude) {
+    Java_com_example_phonesynth_component_AudioEngine_setAmplitude(JNIEnv *env, jobject obj, jfloat amplitude) {
         osc.setAmplitude(amplitude);
     }
 
-//    JNIEXPORT void JNICALL
-//    Java_com_example_phonesynth_MainActivity_setWaveform(JNIEnv *env, jobject obj, jobject ordinal) {
-//        // Oscillator::Waveformに対応するenumに変換
-//        auto waveform = static_cast<Oscillator::Waveform>(ordinal);
-//        osc.setWaveform(waveform);
-//    }
+    JNIIMPORT void JNICALL
+    Java_com_example_phonesynth_component_AudioEngine_setWaveform(JNIEnv *env, jobject obj, jint type) {
+        // Oscillatorに対応するchar_16tに
+        osc.setWaveform(type);
+    }
 
     JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_setSampleRate(JNIEnv *env, jobject obj, jfloat sampleRate) {
+    Java_com_example_phonesynth_component_AudioEngine_setSampleRate(JNIEnv *env, jobject obj, jfloat sampleRate) {
         osc.setSampleRate(sampleRate);
     }
 
-    JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_setPulseWidth(JNIEnv *env, jobject obj, jfloat pulseWidth) {
+    JNIIMPORT void JNICALL
+    Java_com_example_phonesynth_component_AudioEngine_setPulseWidth(JNIEnv *env, jobject obj, jfloat pulseWidth) {
         osc.setPulseWidth(pulseWidth);
     }
 
-    JNIEXPORT void JNICALL
-    Java_com_example_phonesynth_MainActivity_oscDestroy(JNIEnv *env, jobject obj, jlong instance) {
-        delete reinterpret_cast<Oscillator*>(instance);
-    }
+    //effects
+
+    //dist
+//    JNIEXPORT void JNICALL
+//    Java_com_example_phonesynth_component_AudioEngine_setDistortion(JNIEnv *env, jobject obj, jstring type, jfloat drive) {
+//        const char *cType = env->GetStringUTFChars(type, nullptr);
+//        oscillator.setDistortion(std::string(cType), drive);
+//        env->ReleaseStringUTFChars(type, cType);
+//    }
+
+//comp
+//    JNIEXPORT void JNICALL
+//    Java_com_example_phonesynth_component_AudioEngine_setCompressorSettings(JNIEnv *env, jobject obj, jfloat threshold, jfloat ratio, jfloat attack, jfloat release, jfloat gain) {
+//        oscillator.setCompressorSettings(threshold, ratio, attack, release, gain);
+//    }
 
 }

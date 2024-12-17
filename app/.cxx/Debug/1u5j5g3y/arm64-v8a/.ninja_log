@@ -15,3 +15,17 @@
 1	510	1728523557070977834	CMakeFiles/native-lib.dir/native-lib.cpp.o	14c63635e6ef7816
 510	628	1728523557188369344	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so	e072b0c6288c9cfc
 0	10	0	clean	de98d0b64db9a773
+0	10	0	clean	de98d0b64db9a773
+0	10	0	clean	de98d0b64db9a773
+1	445	1729039045771450836	CMakeFiles/native-lib.dir/Oscillator.cpp.o	ab5bb633103f856f
+1	484	1729039045802088932	CMakeFiles/native-lib.dir/native-lib.cpp.o	14c63635e6ef7816
+484	2016	1729039047335614342	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so	e072b0c6288c9cfc
+3	550	1729137267793344181	CMakeFiles/native-lib.dir/Oscillator.cpp.o	ab5bb633103f856f
+1	589	1729137267834050049	CMakeFiles/native-lib.dir/native-lib.cpp.o	14c63635e6ef7816
+589	1957	1729137269197791422	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so	e072b0c6288c9cfc
+2	470	1729143786916309396	CMakeFiles/native-lib.dir/Oscillator.cpp.o	ab5bb633103f856f
+1	505	1729143786951916583	CMakeFiles/native-lib.dir/native-lib.cpp.o	14c63635e6ef7816
+505	698	1729143787145643692	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so	e072b0c6288c9cfc
+3	581	1729146787841096470	CMakeFiles/native-lib.dir/Oscillator.cpp.o	ab5bb633103f856f
+1	613	1729146787872345852	CMakeFiles/native-lib.dir/native-lib.cpp.o	14c63635e6ef7816
+613	776	1729146788037839813	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/1u5j5g3y/obj/arm64-v8a/libnative-lib.so	e072b0c6288c9cfc

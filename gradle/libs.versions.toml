@@ -13,6 +13,8 @@ androidxLegacySupport = "1.0.0"
 appcompat = "1.7.0"
 nd4jNativePlatform = "1.0.0-beta7"
 oboe = "1.9.0"
+navigationRuntimeKtx = "2.8.4"
+navigationCompose = "2.8.4"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,9 +36,10 @@ legacySupportV4 = { group = "androidx.legacy", name = "legacy-support-v4", versi
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 nd4j-native-platform = { module = "org.nd4j:nd4j-native-platform", version.ref = "nd4jNativePlatform" }
 oboe = { module = "com.google.oboe:oboe", version.ref = "oboe" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-#nexusPublishPlugin = { id = "io.github.gradle-nexus.publish-plugin", version = "1.0.0" }
 

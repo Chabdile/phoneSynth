@@ -62,6 +62,8 @@ android {
             version = "3.22.1"
         }
     }
+    buildToolsVersion = "34.0.0"
+    ndkVersion = "26.1.10909125"
 }
 
 dependencies {
@@ -77,6 +79,8 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.oboe)
     implementation(libs.nd4j.native.platform)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
