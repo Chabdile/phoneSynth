@@ -5,7 +5,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import com.example.phonesynth.component.*
 
-class InstViewModel : ViewModel() {
+class InstBellViewModel : ViewModel() {
     private val _state = MutableStateFlow("Hello from InstViewModel")
     val state: StateFlow<String> = _state
 

@@ -3,14 +3,12 @@ package com.example.phonesynth
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import com.example.phonesynth.ui.theme.PhoneSynthTheme
 import androidx.navigation.compose.rememberNavController
-import com.example.phonesynth.navigation.AppNavigation
-
-//import com.example.phonesynth.ui.theme.*
-
+import com.example.phonesynth.navigation.MainNavigation
 
 //---------------------------------------------------------------------
 class MainActivity : ComponentActivity() {
@@ -18,10 +16,14 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             PhoneSynthTheme {
-                Surface(color = MaterialTheme.colorScheme.background) {
+                Surface(
+                    color = MaterialTheme.colorScheme.background
+                ) {
                     setContent {
                         val navController = rememberNavController()
-                        AppNavigation(navController, application)
+                        Column {
+                            MainNavigation(navController = navController, application = application)
+                        }
                     }
                 }
             }
