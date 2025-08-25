@@ -1,4 +1,0 @@
-ninja: Entering directory `/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86_64'
-[1/3] Building CXX object CMakeFiles/native-lib.dir/Oscillator.cpp.o
-[2/3] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
-[3/3] Linking CXX shared library /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/x86_64/libnative-lib.so
