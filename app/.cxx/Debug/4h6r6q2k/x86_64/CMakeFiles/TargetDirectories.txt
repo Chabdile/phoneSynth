@@ -1,0 +1,3 @@
+/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/4h6r6q2k/x86_64/CMakeFiles/native-lib.dir
+/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/4h6r6q2k/x86_64/CMakeFiles/edit_cache.dir
+/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/4h6r6q2k/x86_64/CMakeFiles/rebuild_cache.dir

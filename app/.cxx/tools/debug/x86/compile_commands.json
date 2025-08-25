@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/native-lib.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/native-lib.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/components/Oscillator.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Oscillator.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Oscillator.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/components/Wavetable.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Wavetable.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Wavetable.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/components/Morph.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Morph.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Morph.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/components/LFO.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/LFO.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/LFO.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/components/Waveforms.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Waveforms.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/components/Waveforms.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/effects/distortion.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/distortion.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/distortion.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/effects/compressor.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/compressor.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/compressor.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/effects/StateVariableFilter.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/StateVariableFilter.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/StateVariableFilter.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/effects/Chorus.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/Chorus.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/Chorus.cpp"
+},
+{
+  "directory": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86",
+  "command": "/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android28 --sysroot=/Users/x21008xx/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -isystem /Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/native-lib.dir/effects/Reverb.cpp.o -c /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/Reverb.cpp",
+  "file": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/effects/Reverb.cpp"
+}
+]

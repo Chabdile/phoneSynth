@@ -1,0 +1,13 @@
+# ninja log v5
+4	1571	1739756126142012745	CMakeFiles/native-lib.dir/Oscillator.cpp.o	2f617153c0f5eae1
+3	1663	1739756126229645903	CMakeFiles/native-lib.dir/native-lib.cpp.o	aa2505a0c808955c
+0	13	0	clean	de98d0b64db9a773
+1663	1871	1739756126445824404	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/armeabi-v7a/libnative-lib.so	37d52b6b38c05f1d
+13	1294	1753024103073851072	CMakeFiles/native-lib.dir/Oscillator.cpp.o	edee45c825b7ce12
+7	1363	1753024103142468230	CMakeFiles/native-lib.dir/native-lib.cpp.o	2cfb208d53c99b88
+1364	1505	1753024103285999370	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/armeabi-v7a/libnative-lib.so	4e327a64b82563a
+0	21	0	clean	de98d0b64db9a773
+0	15	0	clean	de98d0b64db9a773
+5	1166	1753063017188611487	CMakeFiles/native-lib.dir/Oscillator.cpp.o	edee45c825b7ce12
+4	1254	1753063017281339759	CMakeFiles/native-lib.dir/native-lib.cpp.o	2cfb208d53c99b88
+1254	1376	1753063017407056556	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/armeabi-v7a/libnative-lib.so	4e327a64b82563a

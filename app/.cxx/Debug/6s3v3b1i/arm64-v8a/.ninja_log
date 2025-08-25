@@ -1,0 +1,25 @@
+# ninja log v5
+6	1838	1755487766620123391	CMakeFiles/native-lib.dir/WavetableMorph.cpp.o	8429a27284a61a8f
+1839	4744	1755487769537934075	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/arm64-v8a/libnative-lib.so	596885dcad9c9228
+0	19	0	clean	de98d0b64db9a773
+5	1252	1753063014899036918	CMakeFiles/native-lib.dir/Oscillator.cpp.o	87cb6cbb15fb914a
+2	1007	1754213099187571951	CMakeFiles/native-lib.dir/native-lib.cpp.o	f8fe248ebcc21727
+1	68	1756048464678403240	build.ninja	b563e66cb6fe47cb
+16	1246	1756048466514747728	CMakeFiles/native-lib.dir/effects/compressor.cpp.o	9ca363b75c8376c
+15	3470	1756048468734877253	CMakeFiles/native-lib.dir/effects/distortion.cpp.o	62be8b3dd5a8a75a
+9	3482	1756048468747125141	CMakeFiles/native-lib.dir/components/Oscillator.cpp.o	62e0d92d978f1a90
+12	3491	1756048468757437802	CMakeFiles/native-lib.dir/components/Morph.cpp.o	6166b9695ee570c1
+13	3572	1756048468837166553	CMakeFiles/native-lib.dir/components/Waveforms.cpp.o	76b356a6171810e0
+17	3574	1756048468840511652	CMakeFiles/native-lib.dir/effects/StateVariableFilter.cpp.o	c8d5a1355d1ba985
+11	3625	1756048468890234182	CMakeFiles/native-lib.dir/components/Wavetable.cpp.o	83c342651571971
+18	4407	1756048469671125444	CMakeFiles/native-lib.dir/effects/Reverb.cpp.o	d2e21deb5118823a
+8	5163	1756048470425517744	CMakeFiles/native-lib.dir/native-lib.cpp.o	f8fe248ebcc21727
+4	987	1756049053879369061	CMakeFiles/native-lib.dir/components/LFO.cpp.o	612fb2c98447aeac
+4	1283	1756049133115367856	CMakeFiles/native-lib.dir/components/LFO.cpp.o	612fb2c98447aeac
+4	1347	1756049133182420118	CMakeFiles/native-lib.dir/effects/Chorus.cpp.o	4bbf4c71a9d32673
+3	1791	1756049133626606356	CMakeFiles/native-lib.dir/native-lib.cpp.o	f8fe248ebcc21727
+1791	4015	1756049135853305356	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/arm64-v8a/libnative-lib.so	1ebdbd5caf1961da
+3	1000	1756049350827501161	CMakeFiles/native-lib.dir/native-lib.cpp.o	f8fe248ebcc21727
+1001	1162	1756049350993684562	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/arm64-v8a/libnative-lib.so	1ebdbd5caf1961da
+5	1046	1756049395103846742	CMakeFiles/native-lib.dir/native-lib.cpp.o	f8fe248ebcc21727
+1047	1207	1756049395267474543	/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/arm64-v8a/libnative-lib.so	1ebdbd5caf1961da

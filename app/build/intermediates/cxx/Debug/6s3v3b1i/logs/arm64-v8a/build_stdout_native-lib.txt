@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/arm64-v8a'
+ninja: no work to do.

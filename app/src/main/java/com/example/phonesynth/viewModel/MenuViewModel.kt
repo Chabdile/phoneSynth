@@ -5,6 +5,6 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
 class MenuViewModel : ViewModel() {
-    private val _state = MutableStateFlow("Hello from InstViewModel")
+    private val _state = MutableStateFlow("")
     val state: StateFlow<String> = _state
 }

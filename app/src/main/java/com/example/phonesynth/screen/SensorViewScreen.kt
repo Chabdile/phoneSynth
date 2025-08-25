@@ -1,6 +1,5 @@
 package com.example.phonesynth.screen
 
-import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -18,7 +17,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.phonesynth.R
-import com.example.phonesynth.component.*
 import com.example.phonesynth.ui.theme.LightGray
 import com.example.phonesynth.viewModel.SensorViewModel
 import com.example.phonesynth.component.Sensors.Companion.accel
@@ -29,9 +27,7 @@ import com.example.phonesynth.component.Sensors.Companion.gyro
 import com.example.phonesynth.component.Sensors.Companion.angle
 
 @Composable
-fun SensorViewScreen(sensorViewModel: SensorViewModel, sensor: Sensors) {
-    val repo = Repository()
-
+fun SensorViewScreen(sensorViewModel: SensorViewModel) {
     Column {
         Row {
             Column(
@@ -55,7 +51,6 @@ fun SensorViewScreen(sensorViewModel: SensorViewModel, sensor: Sensors) {
             Column(
                 modifier = Modifier
                     .fillMaxWidth(),
-                //                horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
                     text = "velo.x: ${velocity.x.value}",
@@ -82,15 +77,15 @@ fun SensorViewScreen(sensorViewModel: SensorViewModel, sensor: Sensors) {
                     .fillMaxWidth(0.5f),
             ) {
                 Text(
-                    text = "音量: ${sensor.repo.volume.value}",
+                    text = "音量: ${sensorViewModel.sensors.repo.volume.value}",
                     style = MaterialTheme.typography.bodyLarge
                 )
                 Text(
-                    text = "音程: ${sensor.repo.tone.value}",
+                    text = "音程: ${sensorViewModel.sensors.repo.tone.value}",
                     style = MaterialTheme.typography.bodyLarge
                 )
                 Text(
-                    text = "発音: ${sensor.repo.articulation.value}",
+                    text = "発音: ${sensorViewModel.sensors.repo.articulation.value}",
                     style = MaterialTheme.typography.bodyLarge
                 )
             }
@@ -147,7 +142,7 @@ fun SensorViewScreen(sensorViewModel: SensorViewModel, sensor: Sensors) {
                         style = MaterialTheme.typography.bodyLarge
                     )
                     Text(
-                        text = "${sensor.repo.pressure.value}",
+                        text = "${sensorViewModel.sensors.repo.pressure.value}",
                         style = MaterialTheme.typography.bodyLarge
                     )
                 }
@@ -157,7 +152,7 @@ fun SensorViewScreen(sensorViewModel: SensorViewModel, sensor: Sensors) {
         Box(
             modifier = Modifier
                 .clickable(
-                    onClick = { sensor.repo.setInitValues() }
+                    onClick = { sensorViewModel.sensors.repo.setInitValues() }
                 )
                 .fillMaxWidth()
                 .height(100.dp)
@@ -175,7 +170,7 @@ fun SensorViewScreen(sensorViewModel: SensorViewModel, sensor: Sensors) {
                         style = MaterialTheme.typography.bodyLarge
                     )
                     Text(
-                        text = "${sensor.repo.pressure.value}",
+                        text = "${sensorViewModel.sensors.repo.pressure.value}",
                         style = MaterialTheme.typography.bodyLarge
                     )
                 }

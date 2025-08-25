@@ -1,0 +1,4 @@
+/Users/x21008xx/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/arm64-v8a \
+  native-lib

@@ -50,27 +50,64 @@ fun MenuScreen(navController: NavController) {
                 .background(
                     color = LightGray,
                     shape = RoundedCornerShape(10.dp)
-                )
-            ,
+                ),
             contentAlignment = Alignment.Center
         ) {
-            Image(
-                painterResource(id = R.drawable.screen_rotation),
-                contentDescription = null,
-                modifier = Modifier.size(30.dp, 30.dp)
-            )
+            Column {
+                Image(
+                    painterResource(id = R.drawable.screen_rotation),
+                    contentDescription = null,
+                    modifier = Modifier.size(30.dp, 30.dp)
+                )
+                Text(text = "tilt")
+            }
         }
 
         //margin top 20px
         Box(modifier = Modifier.padding(0.dp, 20.dp))
-        //inst: Bell shake
+//        //inst: Bell shake
+//        Box(
+//            modifier = Modifier
+//                .fillMaxWidth()
+//                .height(100.dp)
+//                .padding(50.dp, 0.dp)
+//                .clickable(
+//                    onClick = { navController.navigate("instBell") }
+//                )
+//                .border(
+//                    width = 0.dp,
+//                    color = Silver,
+//                    shape = RoundedCornerShape(10.dp)
+//                )
+//                .background(
+//                    color = LightGray,
+//                    shape = RoundedCornerShape(10.dp)
+//                ),
+//            contentAlignment = Alignment.Center
+//        ) {
+//            Column {
+//                Image(
+//                    painterResource(id = R.drawable.sync_alt),
+//                    contentDescription = null,
+//                    modifier = Modifier
+//                        .size(30.dp, 30.dp)
+//                        .graphicsLayer {
+//                            this.rotationZ = 90f
+//                        }
+//                )
+//                Text(text = "shake")
+//            }
+//        }
+
+        //inst: Ensemble
+        Box(modifier = Modifier.padding(0.dp, 20.dp))
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(100.dp)
                 .padding(50.dp, 0.dp)
                 .clickable(
-                    onClick = { navController.navigate("instBell") }
+                    onClick = { navController.navigate("instEnsemble") }
                 )
                 .border(
                     width = 0.dp,
@@ -80,18 +117,17 @@ fun MenuScreen(navController: NavController) {
                 .background(
                     color = LightGray,
                     shape = RoundedCornerShape(10.dp)
-                )
-            ,
+                ),
             contentAlignment = Alignment.Center
         ) {
-            Image(
-                painterResource(id = R.drawable.sync_alt),
-                contentDescription = null,
-                modifier = Modifier.size(30.dp, 30.dp)
-                .graphicsLayer {
-                    this.rotationZ = 90f
-                }
-            )
+            Column {
+                Image(
+                    painterResource(id = R.drawable.connect_without_contact),
+                    contentDescription = null,
+                    modifier = Modifier.size(30.dp, 30.dp)
+                )
+                Text(text = "Ensemble")
+            }
         }
     }
 }

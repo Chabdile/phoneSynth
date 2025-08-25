@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/x21008xx/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/x21008xx/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/.cxx/Debug/6s3v3b1i/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-lib",
+      "abi": "x86_64",
+      "output": "/Users/x21008xx/AndroidStudioProjects/PhoneSynth/app/build/intermediates/cxx/Debug/6s3v3b1i/obj/x86_64/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/x21008xx/.gradle/caches/transforms-4/e4d1471708cdca4847f085a9ea256c91/transformed/oboe-1.9.0/prefab/modules/oboe/libs/android.x86_64/liboboe.so"
+      ]
+    }
+  }
+}
